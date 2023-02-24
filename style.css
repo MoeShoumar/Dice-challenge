@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(176, 88, 41);
+    background-color: rgb(41, 144, 176);
 }
 
 h2 {
@@ -22,6 +22,19 @@ h4 {
     color: white;
 }
 
-display: flex;
-justify-content: space-around;
-align-items: center;
+.players,
+.dices {
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.dice2,
+.dice1 {
+    background-color: red;
+    height: 30vh;
+    width: 20vw;
+
+}
