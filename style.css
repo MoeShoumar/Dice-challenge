@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(176, 88, 41);
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+}
+
+display: flex;
+justify-content: space-around;
+align-items: center;
