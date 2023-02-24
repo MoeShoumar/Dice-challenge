@@ -1,26 +1,33 @@
 
 let result = document.getElementById('result')
-let dice1_result = document.getElementById('dice1_result')
-let dice2_result = document.getElementById('dice2_result')
-dice1_result.innerHTML = Math.floor(Math.random() * 6) + 1;
+let dice1 = document.getElementById('dice1')
+let dice2 = document.getElementById('dice2')
 
-dice2_result.innerHTML = Math.floor(Math.random() * 6) + 1;
+let number_generated = 1
+let number_generated_2 = Math.floor(Math.random() * 6) + 1;
+let result_D1 = number_generated
+let result_D2 = number_generated_2
 
-// Player 1 win
-if (dice1_result.innerHTML > dice2_result.innerHTML) {
-    result.innerHTML = 'Player-1 Win!'
+if (result_D1 == 1) {
+    dice1.innerHTML = '<img src= "assets/1.png">';
 }
+else if
+
+// // Player 1 win
+// if (dice1_result.innerHTML > dice2_result.innerHTML) {
+//     result.innerHTML = 'Player-1 Win!'
+// }
 
 
-// Player 2 win
+// // Player 2 win
 
-if (dice1_result.innerHTML < dice2_result.innerHTML) {
-    result.innerHTML = 'Player-2 Win!'
-}
+// if (dice1_result.innerHTML < dice2_result.innerHTML) {
+//     result.innerHTML = 'Player-2 Win!'
+// }
 
 
 
-// Draw
-if (dice1_result.innerHTML == dice2_result.innerHTML) {
-    result.innerHTML = 'Draw!'
-}
+// // Draw
+// if (dice1_result.innerHTML == dice2_result.innerHTML) {
+//     result.innerHTML = 'Draw!'
+// }
